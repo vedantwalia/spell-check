@@ -52,6 +52,11 @@ On Ubuntu, installing "Language Support" may solve problems with the dictionarie
 sudo apt-get install hunspell-en-gb
 sudo apt-get install myspell-en-gb
 ```
+Or, use 
+```
+sudo locale-gen
+```
+And then reboot your system. If the issue presists, go to your home directory and search for the locale files eg. en_IN. Then copy the path to that file and paste it in Locale Path in the settings for Spell-Check in Atom.
 
 On RedHat, the following should work for Italian:
 
